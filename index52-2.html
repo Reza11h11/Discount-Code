@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Code</title>
+    <script>
+        var numbers={
+            price: 45000,
+            discount: 10/100,
+            handelDiscount: function(){
+                return this.price-(this.price*this.discount)
+            }
+        }
+        console.log("Initial price: ", numbers.price)
+        console.log("Discount: ", (numbers.discount)*100, "%")
+        console.log("Final price: ", numbers.handelDiscount())   
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
